@@ -14,4 +14,4 @@ app.get('/', (req, res) => {
 
 const port = process.env.PORT||PORT;
 app.listen(port);
-console.log(`Running on http://${HOST}:${PORT}`);
+console.log('Hello Node.js Sample is running fine, again!\n');
